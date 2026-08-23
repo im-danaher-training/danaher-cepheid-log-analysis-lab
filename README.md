@@ -30,7 +30,7 @@ The log file contains successful transactions mixed with three real issues. A WA
 1. Read through `logs/application.log` and list every correlation ID that has a WARN or ERROR entry.
 2. For correlation id `c110af22`, trace the stack trace to `OrderLookupService.java:15` and ask Copilot to explain the root cause.
 3. For correlation id `90ee7710`, determine whether the retry masked or resolved the underlying inventory timeout.
-4. For correlation id `3bd0459e`, do not trust the WARN message alone Ã¢â‚¬" trace `calculateTax` for the US-WEST region and find the actual defect.
+4. For correlation id `3bd0459e`, do not trust the WARN message alone - trace `calculateTax` for the US-WEST region and find the actual defect.
 5. Fix the `OrderLookupService` NPE and the `TaxCalculator` US-WEST rate defect.
 6. Add regression tests for both fixes and re-run the suite to confirm the issues no longer occur.
 
@@ -46,7 +46,7 @@ Both defects (NPE in OrderLookupService, wrong US-WEST tax rate) are fixed and c
 
 ## Troubleshooting
 - If you cannot find the tax defect, compare the `US-EAST` and `US-WEST` branches of the switch statement line by line.
-- Remember: the WARN message in the log is a symptom, not the root cause Ã¢â‚¬" do not "fix" the warning message itself.
+- Remember: the WARN message in the log is a symptom, not the root cause - do not "fix" the warning message itself.
 
 ## Optional Challenge
 Add a fourth log scenario of your own (e.g., a duplicate order submission) and write the source-level fix plus a regression test for it.
