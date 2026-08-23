@@ -1,4 +1,4 @@
-﻿# Log Analysis & Production Debugging Lab
+# Log Analysis & Production Debugging Lab
 
 ## Objective
 Learn to use GitHub Copilot inside **IntelliJ IDEA** to complete a realistic Danaher/Cepheid engineering task.

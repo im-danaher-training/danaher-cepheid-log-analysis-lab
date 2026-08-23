@@ -1,4 +1,4 @@
-﻿2026-08-20T09:12:01.001Z INFO  [order-service] corrId=8f2a11c9 requestId=r-10001 Order ORD-58291 submitted for customer CUST-4471 region=US-EAST
+2026-08-20T09:12:01.001Z INFO  [order-service] corrId=8f2a11c9 requestId=r-10001 Order ORD-58291 submitted for customer CUST-4471 region=US-EAST
 2026-08-20T09:12:01.045Z INFO  [inventory-client] corrId=8f2a11c9 requestId=r-10001 checkAvailableStock productId=CEPH-100 result=OK stock=42
 2026-08-20T09:12:01.098Z INFO  [tax-service] corrId=8f2a11c9 requestId=r-10001 calculateTax region=US-EAST amount=100.00 tax=7.00
 2026-08-20T09:12:01.140Z INFO  [order-service] corrId=8f2a11c9 requestId=r-10001 Order ORD-58291 completed total=107.00

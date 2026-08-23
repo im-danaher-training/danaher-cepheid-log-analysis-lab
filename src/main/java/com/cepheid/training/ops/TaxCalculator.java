@@ -1,4 +1,4 @@
-﻿package com.cepheid.training.ops;
+package com.cepheid.training.ops;
 
 // Scenario 3: Incorrect business calculation. Tax rate lookup accidentally
 // uses the wrong key for the "US-WEST" region (copy/paste defect).

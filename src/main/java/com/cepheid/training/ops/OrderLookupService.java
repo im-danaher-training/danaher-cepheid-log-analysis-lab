@@ -1,4 +1,4 @@
-﻿package com.cepheid.training.ops;
+package com.cepheid.training.ops;
 
 import java.util.Map;
 

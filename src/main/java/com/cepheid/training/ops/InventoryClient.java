@@ -1,4 +1,4 @@
-﻿package com.cepheid.training.ops;
+package com.cepheid.training.ops;
 
 // Scenario 2: Database/connection timeout failure. Simulates a downstream
 // inventory system that occasionally times out under load.
